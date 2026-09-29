@@ -1,0 +1,8 @@
+{
+  "name": "Remix Starforge: Void Run - Conta de Piloto",
+  "description": "Portal oficial de criação e autenticação de contas do jogo Starforge: Void Run com integração direta ao Supabase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
