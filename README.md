@@ -149,4 +149,3 @@ async function inicializarSessaoDoPiloto(supabaseClient) {
 1. O jogo importa `@supabase/supabase-js` via importmap e cria o cliente `supabase`.
 2. Chame `await inicializarSessaoDoPiloto(supabase)` **imediatamente antes** de carregar a tela de título ou iniciar o loop do motor gráfico (Phaser, Three.js, Canvas, etc.).
 3. Como `inicializarSessaoDoPiloto` é assíncrona, ela garante que o cliente Supabase do jogo esteja com a sessão autenticada pronta para ler `profiles`, `game_data` ou registrar pontuações antes da primeira nave decolar.
-
